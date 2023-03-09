@@ -1,4 +1,4 @@
-# Challenge 13: React Portfolio
+<!-- # Challenge 13: React Portfolio
 
 For this challenge, you will utilize what you have learned in `Module 13: React` to develop the initial scaffolding of your portfolio sites.
 
@@ -10,7 +10,7 @@ Now that you've worked with React and have multiple projects to share, it's time
 
 ### Design
 
-Remember, "good" design is subjective. Your site should look "polished" and "professional". Here are a few guidelines on what that means:
+Remember, "good" design is subjective. Your site should look "polished" and "professional". Here are a few guidelines on what that means: -->
 
 * Mobile-first design
 
@@ -23,7 +23,7 @@ the default bootstrap theme or an unstyled HTML site.
 
 * Technologies that must be used:
   * [ ] React
-  * [ ] Navigation with `React Router`, dynamic rendering, or another third part router
+  * [ ] Navigation with `React Router`, dynamic rendering, or another third party router
 * Your portfolio **must contain** the following information:
   * [ ] Your name
   * [ ] Links to your:
