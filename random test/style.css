@@ -2,34 +2,15 @@
     margin: 0;
     padding: 0;
 }
-/* @keyframes cutout-bg-color {
-    0% {
-        background-color:  rgb(255, 109, 109)
-    }
-    33% {
-        background-color:  rgb(255, 109, 255)
-    }
-    66% {
-        background-color:  rgb(255, 167, 109)
-    }
-    100% {
-        background-color:  rgb(255, 109, 109)
-}} */
 
 .image-container {
-    /* animation: cutout-bg-color 10s linear infinite; */
     background-image: url("./fractal1.gif");
     background-size: cover;
     background-position: center;
     position: relative;
     height: fit-content;
   }
-/*   
-  .gradient-div {
-    background: linear-gradient(42deg, rgba(0,0,0,80%), rgba(0,0,0,10%));
-    height: 100%;
-    width: 100%; 
-  } */
+
   .text {
     background: black;
     color: white;
