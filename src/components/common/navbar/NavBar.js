@@ -1,7 +1,7 @@
 import { render } from "@testing-library/react";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import {Home, Gallery, Contacts, CV, NavTabs} from "../../commonIndex";
+import {Home, Gallery, Contact, CV, NavTabs} from "../../commonIndex";
 
 function NavBar() {
     return(
@@ -11,7 +11,7 @@ function NavBar() {
                 <Routes>
                     <Route path="/" element={<Home/>} />
                     <Route path="gallery" element={<Gallery/>} />
-                    <Route path="contacts" element={<Contacts/>} />
+                    <Route path="contact" element={<Contact/>} />
                     <Route path="CV" element={<CV/>} />
                 </Routes>
              </div>

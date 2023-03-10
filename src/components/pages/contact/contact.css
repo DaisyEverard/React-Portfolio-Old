@@ -1,0 +1,63 @@
+.leaf-container {
+    height: 500px;
+}
+.gitHub, .linkedIn {
+    width: 100%; 
+    min-width: 450px;
+    height: 300px;
+    color: white;
+    font-size: 12rem; 
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s
+  }
+.gitHub {
+ background-image: url("../../../../assets/green-leaf.png");
+ left: 35%; 
+}
+  
+.linkedIn {
+   background-image: url("../../../../assets/red-leaf.png");
+   left: -30%;
+   top: -150px; 
+}
+.gitHub:hover {
+    font-size: 15rem;
+    left: 30%; 
+    z-index: 1;
+}
+.linkedIn:hover {
+    font-size: 15rem;
+    left: -25%; 
+}
+
+@media only screen and (max-width: 480px) {
+    .gitHub i {
+        margin-left: -100px; 
+    }
+    .linkedIn i {
+        margin-right: -100px; 
+    }
+    .gitHub {
+        font-size: 8rem;
+        left: 35px; 
+    }
+    .linkedIn {
+        font-size: 8rem;
+        left: -150px; 
+    }
+    .gitHub:hover {
+        font-size: 10rem;
+        left: 25px; 
+    }
+    .linkedIn:hover {
+        font-size: 10rem;
+        left: -120px; 
+    }
+}

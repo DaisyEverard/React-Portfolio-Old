@@ -11,7 +11,7 @@ Now that you've worked with React and have multiple projects to share, it's time
 ### Design
 
 Remember, "good" design is subjective. Your site should look "polished" and "professional". Here are a few guidelines on what that means: -->
-
+<!-- 
 * Mobile-first design
 
 * Choose a color palette for your site so it doesn't just look like
@@ -23,7 +23,7 @@ the default bootstrap theme or an unstyled HTML site.
 
 * Technologies that must be used:
   * [ ] React
-  * [ ] Navigation with `React Router`, dynamic rendering, or another third party router
+  * [ ] Navigation with `React Router`, dynamic rendering, or another third party router -->
 * Your portfolio **must contain** the following information:
   * [ ] Your name
   * [ ] Links to your:
