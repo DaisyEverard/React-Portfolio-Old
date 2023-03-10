@@ -1,52 +1,52 @@
 {
     "projects": [
         {
-            "name": "projectname",
-            "description": "description",
-            "siteurl": "url-here",
-            "imgurl": "url-here", 
-            "alt": "alt", 
+            "name": "Cocktail Search",
+            "description": "Get cocktail recipes based on a name, ingredient, or category",
+            "siteurl": "https://daisyeverard.github.io/Cocktail-Search/",
+            "imgurl": "/assets/red-cocktail.png", 
+            "alt": "red cocktail with leaf", 
+            "id": "0"
+        },
+        {
+            "name": "Weather Dashboard",
+            "description": "Get today's weather and a 5 day forecast for any city",
+            "siteurl": "https://daisyeverard.github.io/Weather-Dashboard/",
+            "imgurl": "/assets/clouds-green-sky.jpg", 
+            "alt": "clounds on green sky", 
             "id": "1"
         },
         {
-            "name": "projectname",
-            "description": "description",
-            "siteurl": "url-here",
-            "imgurl": "url-here", 
-            "alt": "alt", 
+            "name": "Team Profile Generator",
+            "description": "Node.js HTML profile page generator",
+            "siteurl": "https://github.com/DaisyEverard/Team-Profile-Generator",
+            "imgurl": "/assets/team-silhouettes.png", 
+            "alt": "silhouettes of a team", 
             "id": "2"
-        },
+        }, 
         {
-            "name": "projectname",
-            "description": "description",
-            "siteurl": "url-here",
-            "imgurl": "url-here", 
-            "alt": "alt", 
+            "name": "Skittles Scores",
+            "description": "App for skittles teams to automatically calculate points",
+            "siteurl": "https://daisyeverard.github.io/Skittles-Scores/",
+            "imgurl": "/assets/bowling-pin.png", 
+            "alt": "bowling ball and pin", 
             "id": "3"
         }, 
         {
-            "name": "projectname",
-            "description": "description",
-            "siteurl": "url-here",
-            "imgurl": "url-here", 
-            "alt": "alt", 
+            "name": "Day Planner",
+            "description": "Event planner for 9-5 hour timeblocks",
+            "siteurl": "https://daisyeverard.github.io/Work-Day-Planner/",
+            "imgurl": "/assets/laptop-on-desk.jpg", 
+            "alt": "laptop on wooden desk", 
             "id": "4"
         },
         {
-            "name": "projectname",
-            "description": "description",
-            "siteurl": "url-here",
-            "imgurl": "url-here", 
-            "alt": "alt", 
+            "name": "Travel Site",
+            "description": "A Travel site who organize tours around Ireland",
+            "siteurl": "https://daisyeverard.github.io/Travel-Ireland/",
+            "imgurl": "/assets/plane.png", 
+            "alt": "plane flying left", 
             "id": "5"
-        },
-        {
-            "name": "projectname",
-            "description": "description",
-            "siteurl": "url-here",
-            "imgurl": "url-here", 
-            "alt": "alt", 
-            "id": "6"
         }
     ]
 }

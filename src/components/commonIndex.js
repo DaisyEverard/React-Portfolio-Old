@@ -1,11 +1,11 @@
 import Header from "./common/header/Header"
 import NavBar from "./common/navbar/NavBar"
 import NavTabs from "./common/navbar/NavTabs"
-import Project from "./common/project/Project"
 
-import Contact from "./pages/contact/Contact"
-import Gallery from "./pages/Gallery"
 import Home from "./pages/Home"
+import Gallery from "./pages/gallery/Gallery"
+import Project from "./pages/gallery/Project"
+import Contact from "./pages/contact/Contact"
 import CV from "./pages/cv/CV"
 
-export {Home, Gallery, Contact, CV, Header, NavBar, NavTabs, Project}
+export {Header, NavBar, NavTabs, Home, Gallery, Contact, CV,  Project}

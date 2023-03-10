@@ -2,10 +2,11 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import "./navtabs.css"
 
-function NavTabs() {
+function NavTabs(props) {
+  const changeImg = props.changeTabImg; 
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      <li className="nav-item" onClick={changeImg}>
         <NavLink
           to="/"
           end
@@ -16,7 +17,7 @@ function NavTabs() {
           Home
         </NavLink>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" onClick={changeImg}>
         <NavLink
           to="gallery"
           end
@@ -27,7 +28,7 @@ function NavTabs() {
           Gallery
         </NavLink>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" onClick={changeImg}>
         <NavLink
           to="contact"
           end
@@ -38,7 +39,7 @@ function NavTabs() {
           Contact
         </NavLink>
       </li>
-      <li className="nav-item">
+      <li className="nav-item" onClick={changeImg}>
         <NavLink
           to="CV"
           end

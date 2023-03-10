@@ -18,12 +18,12 @@
     transition: 0.3s
   }
 .gitHub {
- background-image: url("../../../../assets/green-leaf.png");
+ background-image: url("../../../../public/assets/green-leaf.png");
  left: 35%; 
 }
   
 .linkedIn {
-   background-image: url("../../../../assets/red-leaf.png");
+   background-image: url("../../../../public/assets/red-leaf.png");
    left: -30%;
    top: -150px; 
 }

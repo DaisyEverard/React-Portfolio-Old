@@ -1,5 +1,5 @@
 .image-container {
-    background-image: url("../../../../assets/air-leaves.gif");
+    /* background-image: url("../../../../assets/air-leaves.gif"); */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -10,15 +10,12 @@
   }
 
   .text {
-    background: #7f7f7f;
-    color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     margin: 0 auto;
     padding: 10px;
     width: 100%;
     text-align: center;
-    mix-blend-mode: multiply;
   }
   .text-top {
     padding-top: 20px; 
