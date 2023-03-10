@@ -20,7 +20,7 @@ class Header extends React.Component {
       this.setState({ mixBlendMode: "multiply" })
     } else if (attr === "/gallery") {
       this.setState({ headerBg: "/assets/orange-tree.gif" })
-      this.setState({ backgroundColor: "#c2c2c2" })
+      this.setState({ backgroundColor: "#a1a1a1" })
       this.setState({ color: "black" })
       this.setState({ mixBlendMode: "screen" })
     } else if (attr === "/contact") {

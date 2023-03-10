@@ -4,10 +4,38 @@
 .row {
     padding: 5px; 
 }
+
 .col {
     padding: 0 !important; 
 }
+a {
+    text-decoration: none !important;
+    color: white !important; 
+}
+
 .card {
     border-radius: 0 !important;
-    min-height: 300px;
+}
+
+#card1 img, #card4 img {
+    object-fit: cover;
+}
+#card1 .card-body, #card4 .card-body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#card0 img, #card2 img, #card3 img, #card5 img {
+    max-height: 300px; 
+    object-fit: contain;
+}
+#card0 .card, #card3 .card {
+    background-color: var(--color-green);
+}
+#card2 .card, #card5 .card {
+    background-color: var(--color-red);
 }
