@@ -1,11 +1,9 @@
 import React from "react";
-import Header from "./components/Header";
-import NavBar from "./components/NavBar";
+import  {Home, Gallery, About, Contact, Header, NavBar, NavTabs, Project} from "./components/commonIndex"
 
 function App() {
   return <div>
     <Header/>
-    <NavBar/>
   </div>
 }
 

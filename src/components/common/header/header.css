@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+  --color-cream: #f5ebda;
+  --color-red: #922d0e;
+  --color-green: rgb(8, 70, 46);
+}
+
+.image-container {
+    background-image: url("../../../../assets/air-leaves.gif");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text {
+    background: #7f7f7f;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    mix-blend-mode: multiply;
+  }
+  .text-top {
+    padding-top: 20px; 
+    padding-bottom: 0;
+    font-size: 28px;
+    height: 40%; 
+  }
+  .text-bottom {
+    padding-top: 0;
+    font-size: 50px; 
+    height: 60%;  
+  }
+
+@media only screen and (min-width: 480px) {
+    .image-container {
+      height: 200px; 
+    }
+    .text {
+        /* font-size: 10vw;  */
+        text-align: start;
+      }
+    .text-top {
+        padding-left: 30vw;
+        font-size: 7vw; 
+    }
+    .text-bottom {
+        padding-left: 40vw;
+        font-size: 10vw; 
+    }
+}
+
+
+@media only screen and (min-width: 780px) {
+  .text-top {
+    font-size: 55px; 
+}
+.text-bottom {
+    font-size: 78px; 
+}
+}

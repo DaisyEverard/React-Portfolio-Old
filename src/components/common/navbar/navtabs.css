@@ -1,0 +1,18 @@
+
+.nav {
+    width: 100%; 
+    background-color: var(--color-red);
+  }
+  .nav-link {
+    color: var(--color-cream) !important;
+    font-weight: bold !important;
+    transition: none !important; 
+  }
+  .nav-link:hover {
+    text-decoration: underline;
+    border: none !important; 
+  }
+  .active {
+    color: var(--color-red) !important;
+    background-color: var(--color-cream) !important;
+  }
