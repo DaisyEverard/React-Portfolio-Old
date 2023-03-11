@@ -1,8 +1,13 @@
 import React from "react";
+import "./home.css"
+import "../../index.css"
 
 function Home() {
   return (
-    <div>
+    <div id="home">
+      <div id="image-container">
+        <img src="/assets/profile-pic.jpg"></img>
+      </div>
       <h1>Home Page</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
