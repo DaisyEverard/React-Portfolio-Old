@@ -5,10 +5,14 @@
     flex-direction: column;
     min-height: 400px;
 }
+#cv a {
+    text-decoration: none;
+}
 .keyword {
     z-index: 1;
     font-weight: bold;
     font-size: 1.2rem;
+    font-family: 'Tinos', serif;
     background-color: var(--color-green);
     color: var(--color-cream);
     width: fit-content;

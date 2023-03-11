@@ -1,6 +1,13 @@
 #contact .leaf-container {
     height: 500px;
 }
+#contact a {
+    text-decoration: none;
+    color: var(--color-cream)
+}
+#contact h1 {
+    font-family: 'Gelasio', serif;
+}
 .gitHub, .linkedIn {
     width: 100%; 
     min-width: 450px;

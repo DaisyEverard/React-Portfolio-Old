@@ -1,19 +1,19 @@
-.container-fluid {
+#gallery .container-fluid {
     background-color: var(--color-cream);
 }
-.row {
+#gallery .row {
     padding: 5px; 
 }
 
-.col {
+#gallery .col {
     padding: 0 !important; 
 }
-a {
+#gallery a {
     text-decoration: none !important;
     color: white !important; 
 }
 
-.card {
+#gallery .card {
     border-radius: 0 !important;
     height: 400px !important;
     overflow: hidden; 

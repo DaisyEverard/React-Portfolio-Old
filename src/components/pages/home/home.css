@@ -1,3 +1,47 @@
 #home {
     background-color: var(--color-cream);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image-container {
+    border-radius: 50%;
+    display: inherit;
+    background: linear-gradient(55deg, #ff3c00, #00b42f);
+    padding: 5px; 
+    width: 80%; 
+    max-width: 300px;  
+    margin-top: 20px;
+}
+#home h2 {
+    font-family: 'Gelasio', serif;;
+}
+.profile-pic {
+   border-radius: 50%; 
+   width: 100%;
+   height: 100%; 
+}
+.aboutText, .thinkingAhead {
+    color: var(--color-cream);
+    padding: 5vw;
+    margin: 5px;
+}
+.aboutText {
+    background-color: var(--color-red);
+    text-align: left;
+}
+.aboutText a {
+    text-decoration: underline !important;
+}
+.thinkingAhead {
+    background-color: var(--color-green);
+    text-align: right;
+}
+
+@media only screen and (min-width: 480px) {
+    .aboutText, .thinkingAhead {
+        font-size: 1.3rem;
+        padding: 3vw;
+    }
 }

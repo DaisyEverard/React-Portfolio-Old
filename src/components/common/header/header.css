@@ -1,5 +1,4 @@
 .image-container {
-    /* background-image: url("../../../../assets/air-leaves.gif"); */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -16,6 +15,7 @@
     padding: 10px;
     width: 100%;
     text-align: center;
+    font-family: 'Gelasio', serif;
   }
   .text-top {
     padding-top: 20px; 
