@@ -15,9 +15,12 @@ a {
 
 .card {
     border-radius: 0 !important;
+    height: 400px !important;
+    overflow: hidden; 
 }
 
 #card1 img, #card4 img {
+    height: 100%;
     object-fit: cover;
 }
 #card1 .card-body, #card4 .card-body {

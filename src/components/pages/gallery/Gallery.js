@@ -12,14 +12,14 @@ const projArr = projects.map((proj,ind) => {
     ind % 3 === 0 ? (width = "col-sm-12 col-lg-12"): (width = "col-sm-12 col-md-6 col-lg-6"); 
     return <Project
     name={proj.name} description={proj.description}
-    url={proj.siteurl} src={proj.imgurl}
+    url={proj.siteurl} src={proj.imgurl} github={proj.github}
     alt={proj.alt} id={proj.id} width={width}></Project>
 })
 
 console.log(projArr)
 
 function Gallery() {
-    return <div className="container-fluid">
+    return <div className="container-fluid" id="gallery">
         <h1>Work</h1>
         <div className="row">
             {projArr[0]}
