@@ -11,7 +11,7 @@ const styles = {
 
 function Contact(props) {
   return (
-    <div style={styles.wholeDiv}>
+    <div style={styles.wholeDiv} id="contact">
       <h4>The best way to contact me is at</h4>
       <h1>msdeverard@gmail.com</h1>
       <h4>You can also find me at</h4>

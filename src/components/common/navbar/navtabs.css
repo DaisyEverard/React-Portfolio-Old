@@ -3,6 +3,9 @@
     width: 100%; 
     background-color: var(--color-red);
   }
+  .nav-tabs {
+    border: none !important;
+  }
   .nav-link {
     color: var(--color-cream) !important;
     font-weight: bold !important;

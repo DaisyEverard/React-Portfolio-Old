@@ -2,15 +2,19 @@ import React from "react";
 import "../../index.css";
 import "./cv.css"; 
 
-const styles = {
-    wholeDiv: {
-        backgroundColor: "var(--color-cream)"
-    }
-}
+
 function CV() {
-    return <div style={styles.wholeDiv}>
-        <h1>text</h1>
-        <h2>text</h2>
+    return <div className="whole-div" id="cv">
+        <div className="leaf-container">
+        <img src="/assets/rainbow-leaves.png" className="rainbow-leaves"/>
+        <a href="/assets/resume.pdf" className="button">CV PDF</a>
+        </div>
+            <p className="key1 keyword">16-Week Bootcamp</p>
+            <p className="key2 keyword">Customer Oriented</p>
+            <p className="key3 keyword">Organised</p>
+            <p className="key4 keyword">Reliable</p>
+            <p className="key5 keyword">Motivated</p>
+
     </div>
 }
 

@@ -1,0 +1,121 @@
+
+.whole-div {
+    background-color: var(--color-cream);
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+}
+.keyword {
+    z-index: 1;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: var(--color-green);
+    color: var(--color-cream);
+    width: fit-content;
+    position: absolute;
+    border: 2px solid black;
+    padding: 2px;
+}
+.key1, .key2 {
+    right: 0; 
+    border-radius: 10px 0 0 10px;
+}
+.key3, .key4, .key5 {
+    left: 0; 
+    border-radius: 0 10px 10px 0;
+}
+.key1 {
+    top: 230px;
+}
+ .key2 {
+    top: 260px; 
+}
+.key3 {
+    top: 420px; 
+}
+.key4 {
+    top: 455px; 
+}
+.key5 {
+    top: 490px; 
+}
+#cv .rainbow-leaves {
+      position: absolute;
+    width: 110%;
+    margin-left: -20px; 
+    top: 0; 
+}
+#cv .leaf-container {
+    position: absolute;
+    width: 100%; 
+    height: 40%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cv a {
+    background-color: var(--color-cream);
+    color: black !important; 
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 50%;  
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 30vw;
+    height: 30vw; 
+    position: absolute;
+    margin-left: -15px;
+    top: 40%;
+}
+#cv a:hover {
+    background-color: var(--color-green);
+    color: var(--color-cream) !important;
+}
+
+@media only screen and (min-width: 480px) {
+    #cv .leaf-container {
+        width: 100%; 
+        height: 300px; 
+    }
+    #cv a {
+        width: 160px;
+        height: 160px;
+    position: absolute;
+    margin-left: 10px;
+    font-size: 2rem;
+    }
+    #cv .rainbow-leaves {
+        width: 550px;
+        margin-left: 15px; 
+    }
+    .keyword {
+    font-size: 1.3rem;
+}
+.key1 {
+    top: 250px; 
+}
+.key2 {
+    top: 300px; 
+}
+.key3 {
+    top: 250px; 
+}
+.key4 {
+    top: 350px; 
+}
+.key5 {
+    top: 450px; 
+}
+}
+
+@media only screen and (min-width: 780px) {
+    .key1 {
+        top: 300px;
+    }
+    .key2 {
+        top: 400px; 
+    }
+  }
