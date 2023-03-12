@@ -33,6 +33,7 @@
 }
 .aboutText a {
     text-decoration: underline !important;
+    color: var(--color-cream);
 }
 .thinkingAhead {
     background-color: var(--color-green);
