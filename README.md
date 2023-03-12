@@ -4,10 +4,14 @@
 
 A React app to collate and present my body of work and introduce myself
 
+## Link to site
+
+https://daisyeverard.github.io/React-Portfolio/
+
 ## Preview
 
 <p align="center">
-<img src="/assets/preview.png" width="700" alt="screenshot of terminal">
+<img src="./public/assets/preview-of-site.png" width="500" alt="screenshot of site">
 </p>
 
 ## Table of Contents
