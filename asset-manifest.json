@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.95680a08.css",
+    "main.js": "/static/js/main.9c580e1e.js",
+    "static/media/red-leaf.png": "/static/media/red-leaf.043ae59df572aecaab0b.png",
+    "static/media/green-leaf.png": "/static/media/green-leaf.e602709b494ffefca75e.png",
+    "index.html": "/index.html",
+    "main.95680a08.css.map": "/static/css/main.95680a08.css.map",
+    "main.9c580e1e.js.map": "/static/js/main.9c580e1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95680a08.css",
+    "static/js/main.9c580e1e.js"
+  ]
+}
