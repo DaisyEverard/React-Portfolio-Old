@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import {Home, Gallery, Contact, CV, NavTabs} from "../../commonIndex";

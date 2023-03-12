@@ -6,7 +6,7 @@ function Home() {
   return (
     <div id="home">
       <div id="image-container">
-        <img src="/assets/profile-pic.jpg" className="profile-pic"/>
+        <img src="/assets/profile-pic.jpg" alt="profile picture" className="profile-pic"/>
       </div>
       <div className="aboutText">
       <h2>About Me</h2>

@@ -6,7 +6,7 @@ import "./cv.css";
 function CV() {
     return <div className="whole-div" id="cv">
         <div className="leaf-container">
-        <img src="/assets/rainbow-leaves.png" className="rainbow-leaves"/>
+        <img src="/assets/rainbow-leaves.png" alt="array of leaves in rainbow colors" className="rainbow-leaves"/>
         <a href="/assets/resume.pdf" className="button">CV PDF</a>
         </div>
             <p className="key1 keyword">16-Week Bootcamp</p>
