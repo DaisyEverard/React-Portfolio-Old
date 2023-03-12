@@ -38,7 +38,7 @@ class Header extends React.Component {
 
 
   render () { return (<div>
-    <div className="image-container" style={{backgroundImage: `url(${this.state.headerBg})`}}>
+    <div className="image-container" style={{backgroundImage: `url(${process.env.PUBLIC_URL + this.state.headerBg})`}}>
       <div className="text text-top" 
       style={{backgroundColor: this.state.backgroundColor, color: this.state.color, mixBlendMode: this.state.mixBlendMode}}
       >DAISY EVERARD</div>

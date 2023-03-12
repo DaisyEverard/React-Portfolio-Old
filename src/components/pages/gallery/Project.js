@@ -5,7 +5,7 @@ function Project(props) {
     let url;
     if (props.url !== "") {
         url = <a href={props.url} target="_blank" className="btn btn-primary">
-            <i class="ri-flashlight-fill"></i>
+            <i className="ri-flashlight-fill"></i>
         </a>
     } else {
         url = null; 
@@ -20,21 +20,19 @@ function Project(props) {
         leftUrl = props.iconurl
         rightUrl = props.screenshot
     }
-    console.log(leftUrl)
-    console.log(rightUrl)
 
     return <div className={`${props.width}`} id={props.id}>
         <div className="card">
-            <img className="left-img" src={leftUrl} alt={props.alt}/>
+            <img className="left-img" src={process.env.PUBLIC_URL + leftUrl} alt={props.alt}/>
             <div className="card-body">
               <h5 className="card-title">{props.name}</h5>
               <p className="card-text">{props.description}</p>
               <a href={props.github} target="_blank" className="btn btn-primary">
-                <i class="ri-github-line"></i>
+                <i className="ri-github-line"></i>
               </a>
               {url}
             </div>
-            <img className="right-img" src={rightUrl} alt={props.alt}/>
+            <img className="right-img" src={process.env.PUBLIC_URL + rightUrl} alt={props.alt}/>
         </div>
     </div>
 };
