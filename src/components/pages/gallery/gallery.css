@@ -1,5 +1,12 @@
-#gallery .container-fluid {
+#gallery {
     background-color: var(--color-cream);
+    text-align: center;
+}
+#gallery h1 {
+    font-family: 'Tinos', serif;
+}
+#gallery h5 {
+    font-family: "Gelasio", serif;
 }
 #gallery .row {
     padding: 5px; 
@@ -11,34 +18,66 @@
 #gallery a {
     text-decoration: none !important;
     color: white !important; 
+    background-color: var(--color-cream);
+    border: none;
+    border-radius: 50%;
+    color: black !important;
+    font-size: 2rem;
 }
 
 #gallery .card {
     border-radius: 0 !important;
     height: 400px !important;
     overflow: hidden; 
+    flex-direction: row;
+    color: var(--color-cream);
+    margin: 5px; 
 }
-
-#card1 img, #card4 img {
-    height: 100%;
-    object-fit: cover;
+/* background card colors */
+#card0 .card, #card3 .card {
+    background-color: var(--color-green);
 }
-#card1 .card-body, #card4 .card-body {
-    position: absolute;
+#card1 .card, #card4 .card {
+    background-color: black;
+}
+#card2 .card, #card5 .card {
+    background-color: var(--color-red);
+}
+/* set card columns */
+.card-body, .left-img, .right-img {
     height: 100%;
-    width: 100%;
+    width: 33%; 
+}
+.card-body {
+    min-width: 140px;
+}
+/* main body */
+#gallery .card-body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#card0 img, #card2 img, #card3 img, #card5 img {
-    max-height: 300px; 
-    object-fit: contain;
+/* icons */
+ #card1 .right-img, #card4 .right-img {
+    height: 100%;
+    object-fit: cover;
+ }
+ #card0 .left-img,
+ #card2 .left-img,
+ #card3 .left-img,
+ #card5 .left-img {
+    object-fit: cover;
 }
-#card0 .card, #card3 .card {
-    background-color: var(--color-green);
+/* screenshots */
+ #card0 .right-img,
+ #card2 .right-img,
+ #card3 .right-img,
+ #card5 .right-img,
+ #card1 .left-img,
+ #card4 .left-img {
+    object-fit: cover;
+    object-position: left;
+    opacity: 50%;
 }
-#card2 .card, #card5 .card {
-    background-color: var(--color-red);
-}
+

@@ -5,16 +5,18 @@
             "description": "Get cocktail recipes based on a name, ingredient, or category",
             "siteurl": "https://daisyeverard.github.io/Cocktail-Search/",
             "github": "https://github.com/DaisyEverard/Cocktail-Search",
-            "imgurl": "/assets/red-cocktail.png", 
+            "iconurl": "/assets/red-cocktail.png", 
+            "screenshot": "/assets/cocktail-screenshot.png", 
             "alt": "red cocktail with leaf", 
             "id": "card0"
         },
         {
-            "name": "",
+            "name": "Weather Dashboard",
             "description": "Get today's weather and a 5 day forecast for any city",
             "siteurl": "https://daisyeverard.github.io/Weather-Dashboard/",
             "github": "https://github.com/DaisyEverard/Weather-Dashboard",
-            "imgurl": "/assets/weather-screenshot.png", 
+            "iconurl": "/assets/weather-icon.png",
+            "screenshot": "/assets/weather-screenshot.png", 
             "alt": "screenshot of dashboard", 
             "id": "card1"
         },
@@ -23,7 +25,8 @@
             "description": "Node.js HTML profile page generator",
             "siteurl": "",
             "github": "https://github.com/DaisyEverard/Team-Profile-Generator",
-            "imgurl": "/assets/team-silhouettes.png", 
+            "iconurl": "/assets/team-silhouettes.png",
+            "screenshot": "/assets/profile-screenshot.png",
             "alt": "silhouettes of a team", 
             "id": "card2"
         }, 
@@ -32,7 +35,8 @@
             "description": "App for skittles teams to automatically calculate points",
             "siteurl": "https://daisyeverard.github.io/Skittles-Scores/",
             "github": "https://github.com/DaisyEverard/Skittles-Scores",
-            "imgurl": "/assets/bowling-pin.png", 
+            "iconurl": "/assets/bowling-pin.png", 
+            "screenshot": "/assets/skittles-screenshot.png",
             "alt": "bowling ball and pin", 
             "id": "card3"
         }, 
@@ -41,7 +45,8 @@
             "description": "Event planner for 9-5 hour timeblocks",
             "siteurl": "https://daisyeverard.github.io/Work-Day-Planner/",
             "github": "https://github.com/DaisyEverard/Work-Day-Planner",
-            "imgurl": "/assets/planner-screenshot.png", 
+            "iconurl": "/assets/planner-icon.png",
+            "screenshot": "/assets/planner-screenshot.png", 
             "alt": "screenshot of planner", 
             "id": "card4"
         },
@@ -50,7 +55,8 @@
             "description": "A Travel site who organize tours around Ireland",
             "siteurl": "https://daisyeverard.github.io/Travel-Ireland/",
             "github": "https://github.com/DaisyEverard/Travel-Ireland",
-            "imgurl": "/assets/plane.png", 
+            "iconurl": "/assets/travel-icon.png", 
+            "screenshot": "/assets/travel-screenshot.png",
             "alt": "plane flying left", 
             "id": "card5"
         }
