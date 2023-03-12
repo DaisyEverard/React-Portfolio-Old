@@ -44,9 +44,36 @@
     left: -25%; 
 }
 
+#contact-form, .form-results {
+    padding: 5px; 
+    width: 90%;  
+    margin: 0 auto;
+}
+#contact-form {
+    background-color: black;
+    color: var(--color-cream); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact-form textarea {
+    min-width: 190px;
+    min-height: 70px;
+    width: 30%; 
+}
+.form-results {
+    background-color: #bbbbbb;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.form-results span {
+    font-weight: normal;
+}
 @media only screen and (max-width: 480px) {
     .gitHub i {
-        margin-left: -100px; 
+        margin-left: -100px;
     }
     .linkedIn i {
         margin-right: -100px; 
