@@ -4,7 +4,7 @@ import {Home, Gallery, Contact, CV, NavTabs} from "../../commonIndex";
 
 function NavBar(props) {
     return(
-        <Router>
+        <Router basename="/React-Portfolio">
             <div>
                 <NavTabs changeTabImg={props.changeTabImg}></NavTabs>
                 <Routes>
