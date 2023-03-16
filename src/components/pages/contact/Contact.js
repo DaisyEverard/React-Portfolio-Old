@@ -34,12 +34,12 @@ class Contact extends React.Component {
         <h4>or find me at</h4>
         <div className='leaf-container'>
           <div className="gitHub" style={styles.github}>
-            <a target="_blank" href="https://github.com/DaisyEverard">
+            <a target="_blank" rel="noreferrer" href="https://github.com/DaisyEverard">
               <i className='ri-github-fill'></i>
             </a>
           </div>
           <div className="linkedIn" style={styles.lilnkedin}>
-            <a target="_blank" href="https://www.linkedin.com/in/daisy-everard/">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/daisy-everard/">
             <i className='ri-linkedin-box-fill'></i>
             </a>
           </div>

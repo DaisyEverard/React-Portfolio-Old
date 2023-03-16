@@ -6,7 +6,7 @@ function Home() {
   return (
     <div id="home">
       <div id="image-container">
-        <img src={process.env.PUBLIC_URL + "/assets/profile-pic.jpg"} alt="profile picture" className="profile-pic"/>
+        <img src={process.env.PUBLIC_URL + "/assets/profile-pic.jpg"} alt="profile" className="profile-pic"/>
       </div>
       <div className="aboutText">
       <h2>About Me</h2>
@@ -18,7 +18,7 @@ function Home() {
 
         In my free time I like to study Korean, create ink and pencil illustrations, 
         and spend time with my cat. I've also enjoy making pet projects with code. I made 
-        an {<a target="_blank" href="https://daisyeverard.github.io/Skittles-Scores/">app for the local skittles team</a>} to track their scores, and am working on
+        an {<a target="_blank" rel="noreferrer" href="https://daisyeverard.github.io/Skittles-Scores/">app for the local skittles team</a>} to track their scores, and am working on
          an app to turn a form with numerical data into sets of graphs. 
        </p>
       </div>

@@ -4,7 +4,7 @@ function Project(props) {
     // only add live button is deployed exists
     let url;
     if (props.url !== "") {
-        url = <a href={props.url} target="_blank" className="btn btn-primary">
+        url = <a href={props.url} target="_blank" rel="noreferrer" className="btn btn-primary">
             <i className="ri-flashlight-fill"></i>
         </a>
     } else {
@@ -27,7 +27,7 @@ function Project(props) {
             <div className="card-body">
               <h5 className="card-title">{props.name}</h5>
               <p className="card-text">{props.description}</p>
-              <a href={props.github} target="_blank" className="btn btn-primary">
+              <a href={props.github} target="_blank" rel="noreferrer" className="btn btn-primary">
                 <i className="ri-github-line"></i>
               </a>
               {url}
